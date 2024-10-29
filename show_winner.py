@@ -14,6 +14,12 @@ def setUpNewGame():
 def play():
     print("Playing")
 
+    # 4 show Winner- Rob Combs, Jacob Olsen 
+        # state:
+            # new: [none]
+            # modified: [end the game] game
+            # required: [players(1)], [points(3)]
+
 def showWinner():
     print("Your the Winner")
 
