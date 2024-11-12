@@ -7,9 +7,9 @@ def timeline():
 
 def showGameMenu():
     print("Game Menu")
-    number_of_players=int(input("how many players?: "))
+    number_of_players=int(input("how many players? max of 8: "))
     bots_on=int(input("Bots? if so how many?: "))
-
+    return number_of_players
 def setUpNewGame():
     print("New Game")
 
